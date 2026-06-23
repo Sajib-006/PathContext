@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+
+# Raw data and labels should be downloaded separately.
+Dataset-BRCA-M2C/
+data/images/
+data/labels/
+
+# Large generated artifacts.
+outputs*/
+qualitative_analysis/
+embeddings/
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# Local notebooks and scratch files.
+*.ipynb_checkpoints/
+scratch/
+tmp/
