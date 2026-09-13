@@ -1,8 +1,14 @@
 # PathContext
 
-Code and compact reproducibility artifacts for:
+[![Paper DOI](https://img.shields.io/badge/DOI-10.1145%2F3807503.3820870-blue)](https://doi.org/10.1145/3807503.3820870)
+[![ACM BCB 2026](https://img.shields.io/badge/ACM%20BCB-2026-0085CA)](https://doi.org/10.1145/3807503.3820870)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Patch-Level Tissue Context Improves Learning from Frozen Pathology Foundation Model Embeddings**
+Code and compact reproducibility artifacts for **“Patch-Level Tissue Context Improves Learning from Frozen Pathology Foundation Model Embeddings”** by Sajib Acharjee Dip and Liqing Zhang, published at ACM BCB 2026.
+
+**Paper:** https://doi.org/10.1145/3807503.3820870
+
+**How to cite:** see [`CITATION.cff`](CITATION.cff) or the citation below.
 
 The paper studies lightweight tissue-context modeling for cell-level classification from frozen pathology foundation model embeddings. The main experiments use the BRCA-M2C breast cancer histopathology dataset and compare cell-only frozen embedding baselines against patch-context fusion, graph-context propagation, local-neighbor context, hybrid morphology-context features, and multi-encoder fusion.
 
@@ -28,6 +34,16 @@ pip install -r requirements.txt
 ```
 
 Some encoders are gated or require external checkpoints/tokens. Follow the licensing and access terms for each foundation model.
+
+## Quick Reproducibility Check
+
+The repository includes the compact benchmark tables used to generate the paper figures. Regenerate the summary figures without downloading the raw images or model checkpoints:
+
+```bash
+python src/run_acmbcb_plot.py \
+  --csv results/brca_m2c/results_all_methods_and_ablations.csv \
+  --out_dir reproduced_figures
+```
 
 ## Data
 
@@ -109,3 +125,23 @@ python src/run_acmbcb_qual.py \
 ## Notes
 
 The included CSV/JSON result artifacts are small enough for Git and are provided to document the exact benchmark outputs used for the paper plots. Large intermediate artifacts should be regenerated locally and are ignored by `.gitignore`.
+
+## Citation
+
+```bibtex
+@inproceedings{dip2026patch,
+  author    = {Dip, Sajib Acharjee and Zhang, Liqing},
+  title     = {Patch-Level Tissue Context Improves Learning from Frozen Pathology Foundation Model Embeddings},
+  booktitle = {Proceedings of the 17th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics},
+  year      = {2026},
+  articleno = {72},
+  numpages  = {6},
+  publisher = {Association for Computing Machinery},
+  doi       = {10.1145/3807503.3820870},
+  url       = {https://doi.org/10.1145/3807503.3820870}
+}
+```
+
+## License
+
+The code is released under the [MIT License](LICENSE). The paper is published separately under CC BY 4.0.

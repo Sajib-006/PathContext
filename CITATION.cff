@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated ACM BCB 2026 paper."
+title: "PathContext"
+authors:
+  - family-names: "Dip"
+    given-names: "Sajib Acharjee"
+    orcid: "https://orcid.org/0009-0007-0959-2638"
+  - family-names: "Zhang"
+    given-names: "Liqing"
+    orcid: "https://orcid.org/0000-0003-4660-9199"
+repository-code: "https://github.com/Sajib-006/PathContext"
+url: "https://doi.org/10.1145/3807503.3820870"
+license: "MIT"
+preferred-citation:
+  type: conference-paper
+  title: "Patch-Level Tissue Context Improves Learning from Frozen Pathology Foundation Model Embeddings"
+  authors:
+    - family-names: "Dip"
+      given-names: "Sajib Acharjee"
+      orcid: "https://orcid.org/0009-0007-0959-2638"
+    - family-names: "Zhang"
+      given-names: "Liqing"
+      orcid: "https://orcid.org/0000-0003-4660-9199"
+  collection-title: "Proceedings of the 17th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics"
+  publisher:
+    name: "Association for Computing Machinery"
+  year: 2026
+  month: 6
+  doi: "10.1145/3807503.3820870"
+  url: "https://doi.org/10.1145/3807503.3820870"
+  start: 1
+  end: 6
