@@ -2,11 +2,16 @@
 
 [![Paper DOI](https://img.shields.io/badge/DOI-10.1145%2F3807503.3820870-blue)](https://doi.org/10.1145/3807503.3820870)
 [![ACM BCB 2026](https://img.shields.io/badge/ACM%20BCB-2026-0085CA)](https://doi.org/10.1145/3807503.3820870)
+[![Latest release](https://img.shields.io/github/v/release/Sajib-006/PathContext)](https://github.com/Sajib-006/PathContext/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Code and compact reproducibility artifacts for **“Patch-Level Tissue Context Improves Learning from Frozen Pathology Foundation Model Embeddings”** by Sajib Acharjee Dip and Liqing Zhang, published at ACM BCB 2026.
 
 **Paper:** https://doi.org/10.1145/3807503.3820870
+
+**Project page:** https://sajib-006.github.io/publication/patch-level-tissue-context/
+
+**Latest release:** https://github.com/Sajib-006/PathContext/releases/latest
 
 **How to cite:** see [`CITATION.cff`](CITATION.cff) or the citation below.
 

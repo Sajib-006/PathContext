@@ -1,0 +1,39 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "PathContext",
+  "description": "Code and compact reproducibility artifacts for evaluating patch-level tissue context with frozen pathology foundation model embeddings.",
+  "version": "1.0.1",
+  "dateModified": "2026-09-13",
+  "codeRepository": "https://github.com/Sajib-006/PathContext",
+  "issueTracker": "https://github.com/Sajib-006/PathContext/issues",
+  "license": "https://spdx.org/licenses/MIT",
+  "programmingLanguage": "Python",
+  "applicationCategory": "Computational pathology",
+  "keywords": [
+    "computational pathology",
+    "foundation models",
+    "tissue context",
+    "histopathology",
+    "cell classification"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Sajib Acharjee",
+      "familyName": "Dip",
+      "@id": "https://orcid.org/0009-0007-0959-2638"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Liqing",
+      "familyName": "Zhang",
+      "@id": "https://orcid.org/0000-0003-4660-9199"
+    }
+  ],
+  "citation": "https://doi.org/10.1145/3807503.3820870",
+  "relatedLink": [
+    "https://sajib-006.github.io/publication/patch-level-tissue-context/",
+    "https://github.com/Sajib-006/PathContext/releases/latest"
+  ]
+}
